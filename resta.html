@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>>RESTAS</title>
+	<link rel="stylesheet" href="/css/estilos.css">
+</head>
+<body>
+	<h1>RESTAS</h1>
+	<div class="container">
+		<div class="izquierdo">
+			<div class="container-operacion">
+			 	<span id="resta"> 7 - 2 =</span>
+			 	<span class="resultado" id="resultado"> 5</span>
+			 </div>
+			 <span class="msj" id="msj"></span>
+		</div>
+		<div class="derecha">
+			<span id="op1" class="opcion" onclick="controlarRespuesta(this)">18</span>
+			<span id="op2" class="opcion" onclick="controlarRespuesta(this)">17</span>
+			<span id="op3" class="opcion" onclick="controlarRespuesta(this)">8</span>
+		</div>
+	</div>
+	<script src="/js/script_resta.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+body {
+  text-align: center;
+  background: url(/img/fondo.jpg);
+  background-size: cover;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: #ffff;
+  font-size: 30px;
+}
+
+.menu img {
+  width: 45%;
+  height: 75%;
+  border-radius: 10%;
+   }
+
+h1 {
+  color: white;
+  padding: 40px;
+}

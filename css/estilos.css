@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'arial';
+}
+body{
+	text-align: center;
+	background: url(/img/fondo.jpg);
+}
+h1{
+	color: white;
+	padding: 50px;
+}
+.container{
+	background-color: #1900ff;
+	width: 700px;
+	margin: auto;
+	border: 2px solid #000;
+	border-radius: 20px;
+	display: flex;
+	padding: 50px 0;
+}
+.izquierdo{
+	width: 70%;
+	font-size: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #ffff;
+}
+.derecha{
+	width: 30%;
+}
+.msj{
+	font-size: 40px;
+	height: 50px;
+}
+.derecha{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.opcion{
+	width: 80px;
+	height: 80px;
+	font-size: 50px;
+	margin-bottom: 20px;
+	border-radius: 50%;
+	background-color: #000;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
