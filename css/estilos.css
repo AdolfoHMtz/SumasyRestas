@@ -12,6 +12,7 @@ h1{
 	padding: 30px;
 }
 .container{
+	padding: 8px;
 	background-color: #1900ff;
 	max-width: 500px;
 	margin: auto;
