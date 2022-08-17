@@ -14,8 +14,8 @@ function comenzar() {
   texto_respuesta.innerHTML = "";
 
   //genera la resta - Numeros aleatorios entre 0 y 20
-  num1 = Math.round(Math.random() * 100); //opercacion para numero aleatorio
-  num2 = Math.round(Math.random() * 20);
+  num1 = Math.round(Math.random() * 30); //opercacion para numero aleatorio
+  num2 = Math.round(Math.random() * 12);
   respuesta = num1 - num2;
   //asignamos lo números para que se muestren
   resta.innerHTML = num1 + " - " + num2 + " = ";

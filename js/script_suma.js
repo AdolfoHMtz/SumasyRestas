@@ -11,8 +11,8 @@ function comenzar(){
 	txt_msj.innerHTML = "";
 
 	//genera la suma - Numeros aleatorios entre 0 y 9
-	num1 = Math.round(Math.random()*50); //opercacion para numero aleatorio
-	num2 = Math.round(Math.random()*50);
+	num1 = Math.round(Math.random()*20); //opercacion para numero aleatorio
+	num2 = Math.round(Math.random()*20);
 	respuesta = num1 + num2;
 	//asignamos lo números para que se muestren
 	suma.innerHTML = num1 + " + " + num2 + " = ";
